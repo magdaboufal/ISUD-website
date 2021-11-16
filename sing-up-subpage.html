@@ -10,9 +10,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
   </head>
-  
   <body>
-<header id="main-header">
+  <header id="main-header">
 	  <nav id="nav-bar">
 	    <ul>
 		  <li><a href="index.html">Homepage</a></li>
@@ -20,18 +19,32 @@
 		  <li><a href="announcements-and-events.html">Announcements and Events</a></li>
 		  <li id="onpage"><a href="#">Contact/Join</a></li>
 		</ul>
-		<h1>CONTACT/JOIN</h1>
+		<h1>Sing Up Page</h1>
 	  </nav>
 	</header>
 	<!-- page code goes here -->
-	<main id="contact-main">
-	<p>Hello World</p>
-	<div class="contact-button">
-	<a href="contact-subpage.html">Contact Us!</a></li>
-	</div>
-	<div class="log-in-button">
-	<a href="sing-up-subpage.html">Sing Up!</a></li>
-	</div>
+		<main id="contact-main">
+	<form method="get" action="#null">
+          <div class="form-fields">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" required>
+          </div>
+          <div class="form-fields">
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" required>
+          </div>
+          <div class="form-fields">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="form-fields">
+            <label for="date">Date of Birth:</label>
+            <input type="date" name="date" id="date" required>
+          </div>   
+          <div class="form-button-field">
+            <button onclick="firstFunction()">Sign me up!</button>
+          </div>
+        </form>
 	</main>
   </body>
 </html>

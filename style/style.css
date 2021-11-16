@@ -52,13 +52,6 @@ h3{
 	font-family: 'Playfair Display', serif;
 }
 
-.p1 {
-	background-color: #FFE4C4;
-}
-
-p{
-	font-family: 'Roboto', sans-serif;
-}
 
 /*---layout index---*/
 
@@ -73,7 +66,9 @@ p{
 /*------------------------------*/
 
 /*---layout contact-join---*/
-
+#contact-main{
+	margin-top: 300px;
+}
 
 /*------------------------------*/
 
