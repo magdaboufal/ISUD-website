@@ -1,0 +1,105 @@
+/*---navigation bar---*/
+nav#nav-bar{
+	background-color: blue;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	position: fixed;
+	top:0px;
+}
+nav#nav-bar ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	top: 0;
+	background-color: #dddddd;
+}
+nav#nav-bar ul li{
+	display: inline-block;
+}
+nav#nav-bar ul li a{
+	display: block;
+	padding: 10px;
+	background-color: #dddddd;
+	text-decoration: none;
+	text-align: center;
+}
+nav#nav-bar ul li a:hover {
+	background-color: #F0F8FF;
+}
+
+
+/*style*/
+#main-header{
+	margin-top: 50px;
+}
+#onpage{
+	text-transform: uppercase;
+	}
+
+h1 {
+	color: #A52A2A;
+	background-color: yellow;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	color: #A52A2A;
+	font-family: 'Playfair Display', serif;
+}
+
+.p1 {
+	background-color: #FFE4C4;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*---layout index---*/
+
+/*-------------------------------*/
+
+/*---layout about---*/
+
+/*------------------------------*/
+
+/*---layout Announcements and events---*/
+
+/*------------------------------*/
+
+/*---layout contact-join---*/
+
+
+/*------------------------------*/
+
+/*media queries*/
+@media screen and (max-width: 960px){
+body {
+	background: #FFF0F5;
+	font-size: 1.25em;
+}
+
+}
+
+
+
+@media screen and (max-width: 500px){
+body {
+	background-image: url('back.jpg');
+	font-size: 1em;
+}
+
+
+h1 {
+	background-color: #FFF0F5;
+}
+h3 {
+	background-color: #FFE4C4;
+}
+}
+	
