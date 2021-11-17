@@ -3,12 +3,10 @@
   <head>
    <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport" />
     <meta charset = "UTF-8">
-    <title>Contact/Join</title>
+    <title>Sing Up Page</title>
 	<link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/normalize.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+	<script async type ="text/javascript" src="js/script.js"></script>
   </head>
   <body>
   <header id="main-header">
@@ -19,31 +17,31 @@
 		  <li><a href="announcements-and-events.html">Announcements and Events</a></li>
 		  <li id="onpage"><a href="#">Contact/Join</a></li>
 		</ul>
-		<h1>Sing Up Page</h1>
+		<h1>Contact/Join > Sing Up Page</h1>
 	  </nav>
 	</header>
 	<!-- page code goes here -->
-		<main id="contact-main">
-	<form method="get" action="#null">
-          <div class="form-fields">
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname" required>
-          </div>
-          <div class="form-fields">
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lname" id="lname" required>
-          </div>
-          <div class="form-fields">
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email" required>
-          </div>
-          <div class="form-fields">
-            <label for="date">Date of Birth:</label>
-            <input type="date" name="date" id="date" required>
-          </div>   
-          <div class="form-button-field">
-            <button onclick="firstFunction()">Sign me up!</button>
-          </div>
+	<main id="contact-main"> <!--main wrapper content -->
+	  <form method="get" action="#null"> <!-- form content-->
+        <div class="form-fields">
+          <label for="fname">First Name:</label>
+          <input type="text" name="fname" id="fname" required>
+        </div>
+        <div class="form-fields">
+          <label for="lname">Last Name:</label>
+          <input type="text" name="lname" id="lname" required>
+        </div>
+        <div class="form-fields">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-fields">
+          <label for="date">Date of Birth:</label>
+          <input type="date" name="date" id="date" required>
+        </div>   
+        <div class="form-button-field">
+          <button onclick="firstFunction()">Sign me up!</button>
+        </div>
         </form>
 	</main>
   </body>
