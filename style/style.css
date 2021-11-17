@@ -87,8 +87,32 @@ h1 {
 /*------------------------------*/
 
 /*---layout contact-join---*/
-#contact-main{
-	margin-top: 300px;
+.contact-main{
+	margin-top: 100px;
+	position: relative;
+	width: 960px;
+    margin: auto;
+	
+}
+
+	
+#contact-button {
+	display: block;
+	width: 300px;
+	height: 150px;
+	background-image: url('contact-us.jpg');
+	font-size: 30px;
+	text-align: center;
+	
+}
+	
+#log-in-button{
+	display: block;
+	width: 300px;
+	height: 150px;
+	background-image: url('sign-up.jpg');
+	font-size: 30px;
+	text-align: center;
 }
 
 /*------------------------------*/
