@@ -1,5 +1,5 @@
 #main-header{
-	margin-top: 50px;
+	margin-top: 0px;
 }
 #onpage{
 	text-transform: uppercase;
@@ -13,20 +13,32 @@ h1 {
 	text-transform: uppercase;
 }
 
+
 .navbar {
   overflow: hidden;
   background-color: #333;
 }
 
 .navbar a {
-  float: left;
+ float: left;
   font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+.nav-content{
+}
 
+.nav-menu1{
+	
+}
+.nav-logo-header{
+	width: 250px
+}
+#logo{
+	width: 200px;	
+}
 .dropdown {
   float: left;
   overflow: hidden;
@@ -128,7 +140,7 @@ body {
 
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
 body {
 	background-image: url('back.jpg');
 	font-size: 1em;
