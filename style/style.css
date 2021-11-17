@@ -30,7 +30,6 @@ nav#nav-bar ul li a:hover {
 	background-color: #F0F8FF;
 }
 
-
 /*style*/
 #main-header{
 	margin-top: 50px;
@@ -42,18 +41,14 @@ nav#nav-bar ul li a:hover {
 h1 {
 	color: #A52A2A;
 	background-color: yellow;
-	font-family: 'Playfair Display', serif;
+	font-family: serif;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 h3{
 	color: #A52A2A;
-	font-family: 'Playfair Display', serif;
-}
-
-.p1 {
-	background-color: #FFE4C4;
+	font-family: serif;
 }
 
 p{
@@ -73,7 +68,11 @@ p{
 /*------------------------------*/
 
 /*---layout contact-join---*/
-
+#main-contact{
+	margin-top: 300px;
+	width: 960px;
+	background: green;
+}
 
 /*------------------------------*/
 
@@ -90,7 +89,6 @@ body {
 
 @media screen and (max-width: 500px){
 body {
-	background-image: url('back.jpg');
 	font-size: 1em;
 }
 
