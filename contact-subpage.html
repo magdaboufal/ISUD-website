@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport" />
+    <meta charset = "UTF-8">
+    <title>Contact Us</title>
+	<link rel="icon" href="images/earth.png">
+	<link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/normalize.css">
+	<script async type ="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+  <header id="main-header">
+	  <nav id="nav-bar">
+	    <ul>
+		  <li><a href="index.html">Homepage</a></li>
+		  <li><a href="about.html">About Us</a></li>
+		  <li><a href="announcements-and-events.html">Announcements and Events</a></li>
+		  <li id="onpage"><a href="#">Contact/Join</a></li>
+		</ul>
+		<h1>Contact/Join > Contact Us</h1>
+	  </nav>
+	</header>
+	<!-- page code goes here -->
+	<main id="contact-main">
+	<form method="get" action="#null">
+          <div class="form-fields">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" required>
+          </div>
+          <div class="form-fields">
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" required>
+          </div>
+          <div class="form-fields">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+		   <div class="form-fields">
+            <label for="email">Subject:</label>
+            <input type="text" name="subject" id="subject" required>
+          </div>
+		  <div class="form-fields">
+            <label for="email">Message:</label>
+            <input type="text" name="message" id="message" required>
+          </div>
+          <div class="form-fields">
+            <label for="date">Today's date:</label>
+            <input type="date" name="date" id="date" required>
+          </div>   
+          <div class="form-button-field">
+            <button onclick="firstFunction()">Send!</button>
+          </div>
+        </form>
+	</main>
+  </body>
+</html>

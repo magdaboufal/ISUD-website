@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset = "UTF-8">
-    <title>Contact/Join</title>
-	<link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" type="text/css" href="style/normalize.css">
-  </head>
-  <body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport" />
+  <meta charset = "UTF-8">
+  <title>Contact/Join</title>
+  <link rel="icon" href="images/earth.png">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" type="text/css" href="style/normalize.css">
+  <script async type ="text/javascript" src="java/script.js"></script>
+</head>
+ 
+<body>
   <header id="main-header">
-	  <nav id="nav-bar">
-	    <ul>
-		  <li><a href="index.html">Homepage</a></li>
-		  <li><a href="about.html">About Us</a></li>
-		  <li><a href="announcements-and-events.html">Announcements and Events</a></li>
-		  <li id="onpage"><a href="#">Contact/Join</a></li>
-		</ul>
-		<h1>CONTACT/JOIN</h1>
-	  </nav>
+    <div class="navbar">
+       <div class="dropdown-button"><a href="index.html">Homepage</a></div>
+       <div class="dropdown-button"><a href="about.html">About Us</a></div>
+       <div class="dropdown"> <!-- announcements-and-events ments dropdown menu -->
+       <div class="dropdown-button"><a href="announcements-and-events.html">Announcements and Events</a></div>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+        </div>
+      <div class="dropdown">
+        <div class="dropdown-button"><a id="onpage" href="contact-join.html">Contact/Join</a></div>
+          <div class="dropdown-content">
+            <a href="contact-subpage.html">Contact Us!</a>
+            <a href="sing-up-subpage.html">Sing Up!</a>
+            <a href="#">Link 3</a>
+</div>
+</div> 
+</div>
+	<h1>Contact/Join</h1>
 	</header>
 	<!-- page code goes here -->
-	
+	<main id="contact-main">
+	<p>Hello World</p>
+	<div class="contact-button">
+	<a href="contact-subpage.html">Contact Us!</a>
+	</div>
+	<div class="log-in-button">
+	<a href="sing-up-subpage.html">Sing Up!</a>
+	</div>
+	</main>
   </body>
 </html>
