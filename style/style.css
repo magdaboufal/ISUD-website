@@ -34,7 +34,7 @@ h1 {
 	
 }
 .nav-logo-header{
-	width: 250px
+	width: 250px;
 }
 #logo{
 	width: 200px;	
@@ -101,13 +101,15 @@ h1 {
 /*---layout contact-join---*/
 
 .pic-button{
-	 position: relative;
+  position: relative;
   width: 50%;
+  float:left;
+  height: 250px;
 }
 
 .pic-button img{
 	 width: 100%;
-  height: auto;
+  height: 100%;
 } 
 .pic-button .btn {
   position: absolute;
@@ -135,37 +137,17 @@ h1 {
 	margin-top: 100px;
 	position: relative;
 	width: 960px;
-    margin: auto;
+    margin-left: auto;
+	 margin-right: auto;
 	
 }
 
 	
 #contact-button {
-	display: block;
-	width: 300px;
-	height: 150px;
-	background-image: url('Project2-1/images/contact-us.jpg');
-	font-size: 30px;
+	padding: 10px;
+	font-size: 16px;
 	text-align: center;
-	
-}
-	
-#log-in-button{
-	display: block;
-	width: 300px;
-	height: 150px;
-	background-image: url('images/sign-up.jpg');
-	font-size: 30px;
-	text-align: center;
-}
 
-#facebook-page{
-	display: block;
-	width: 300px;
-	height: 150px;
-	background-image: url('images/facebook.jpg');
-	font-size: 30px;
-	text-align: center;
 }
 
 /*------------------------------*/
