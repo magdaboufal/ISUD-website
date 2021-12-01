@@ -127,6 +127,15 @@ h1 {
 	text-align: center;
 }
 
+#facebook-page{
+	display: block;
+	width: 300px;
+	height: 150px;
+	background-image: url('facebook.jpg');
+	font-size: 30px;
+	text-align: center;
+}
+
 /*------------------------------*/
 
 /*media queries*/
