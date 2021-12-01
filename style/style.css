@@ -99,6 +99,38 @@ h1 {
 /*------------------------------*/
 
 /*---layout contact-join---*/
+
+.pic-button{
+	 position: relative;
+  width: 50%;
+}
+
+.pic-button img{
+	 width: 100%;
+  height: auto;
+} 
+.pic-button .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pic-button .btn:hover {
+  background-color: black;
+}
+
+
+
+
 .contact-main{
 	margin-top: 100px;
 	position: relative;
@@ -112,7 +144,7 @@ h1 {
 	display: block;
 	width: 300px;
 	height: 150px;
-	background-image: url('contact-us.jpg');
+	background-image: url('Project2-1/images/contact-us.jpg');
 	font-size: 30px;
 	text-align: center;
 	
@@ -122,7 +154,7 @@ h1 {
 	display: block;
 	width: 300px;
 	height: 150px;
-	background-image: url('sign-up.jpg');
+	background-image: url('images/sign-up.jpg');
 	font-size: 30px;
 	text-align: center;
 }
@@ -131,7 +163,7 @@ h1 {
 	display: block;
 	width: 300px;
 	height: 150px;
-	background-image: url('facebook.jpg');
+	background-image: url('images/facebook.jpg');
 	font-size: 30px;
 	text-align: center;
 }
