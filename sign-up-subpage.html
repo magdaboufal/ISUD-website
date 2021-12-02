@@ -10,16 +10,42 @@
 	<script async type ="text/javascript" src="js/script.js"></script>
   </head>
   <body>
-  <header>
-	   <nav id="nav-bar">
-	  <ul>
-		  <li><a href="index.html">Back to Homepage</a></li>
-		  <li><a href="contact-join.html">Back to Contact/Join</a></li>
-		  <li><a href="contact-subpage.html">Go to Contact Form</a></li>
-		</ul>
-		<h1>Sign Up Form</h1>
-	  </nav>
-	</header>
+  <header id="main-header">
+
+	<div class="nav-logo"><!--LOGO-->
+	  <img id="logo" src="images/logo_isud.png" alt="logo isud">
+	</div>
+    
+	<nav><!--NAVIGATION-->
+    <div class="dropdown">
+      <div class="dropbtn"> <a href="index.html">Home</a></div>
+	</div>
+    <div class="dropdown">
+      <button class="dropbtn">About Us</button>
+      <div class="dropdown-content">
+        <a href="history.html">History</a>
+        <a href="journal.html">Journal</a>
+        <a href="constitution.html">Constitution</a>
+      </div>
+    </div>
+	<div class="dropdown">
+      <div class="dropbtn"> <a href="announcements-and-events.html">Events</a></div>
+	</div>
+	<div class="dropdown">
+      <div class="dropbtn"> <a href="#">News</a></div>
+	</div>
+	<div class="dropdown">
+      <button class="dropbtn">Contact Us</button>
+      <div class="dropdown-content">
+        <a href="contact-subpage.html">Send a Message</a>
+        <a href="sign-up-subpage.html">Get Newsletter</a>
+        <a href="contact-join.html">Social Media</a>
+      </div>
+    </div>
+  </nav>
+	<h1>Get Newsletter</h1> <!--PAGE HEADER-->
+  </header>
+	  
 	<!-- page code goes here -->
 	<main class="contact-main"> <!--main wrapper content -->
 	  <form method="get" action="#null"> <!-- form content-->
