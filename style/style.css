@@ -1,12 +1,24 @@
+body{
+	line-height: 1.6;
+}
 h1 {
 	color: #A52A2A;
-	background-color: yellow;
 	font-family: serif;
 	text-align: center;
-	text-transform: uppercase;
 }
+#main-nav{
+	width: 100%;
+	background:#04AA6D;
+}
+.nav-logo{
+	display: block;
+}
+.nav-logo img{
+	width:300px;
+	float: left;
 
-/* Dropdown Button */
+}
+/* Dropdown Button----------------------------- */
 .dropbtn {
   background-color: #04AA6D;
   color: white;
@@ -20,7 +32,10 @@ h1 {
   position: relative;
   display: inline-block;
 }
-
+.dropdown a {
+ text-decoration:none;
+ color: white;
+}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
@@ -53,6 +68,9 @@ h1 {
 .dropdown:hover .dropbtn {
 	background-color: #3e8e41;
 }
+/* Dropdown Button----------------------------- end */
+
+
 
 .about{
 	
@@ -69,72 +87,24 @@ h1 {
 .history{
 	
 }
-/*---layout index---*/
 
-/*-------------------------------*/
 
-/*---layout about---*/
 
 /*------------------------------*/
 
-/*---layout Announcements and events---*/
-
-/*------------------------------*/
-
-/*---layout contact-join---*/
-.contact-main{
-	margin-top: 100px;
-	position: relative;
-	width: 960px;
-    margin: auto;
-	
-}
-
-	
-#contact-button {
-	display: block;
-	width: 300px;
-	height: 150px;
-	background-image: url('contact-us.jpg');
-	font-size: 30px;
-	text-align: center;
-	
-}
-	
-#log-in-button{
-	display: block;
-	width: 300px;
-	height: 150px;
-	background-image: url('sign-up.jpg');
-	font-size: 30px;
-	text-align: center;
-}
-
-/*------------------------------*/
-
-/*media queries*/
+/*media queries--------------------------------------------*/
 @media screen and (max-width: 960px){
 body {
 	background: #FFF0F5;
 	font-size: 1.25em;
 }
-
 }
 
 
 
 @media screen and (max-width: 480px){
 body {
-	background-image: url('back.jpg');
 	font-size: 1em;
-}
-
-
-h1 {
-	background-color: #FFF0F5;
-}
-h3 {
-	background-color: #FFE4C4;
 }
 }
 	
