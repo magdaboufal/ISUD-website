@@ -136,30 +136,6 @@ h2{
 
 /*------------------------------*/
 
-/*media queries--------------------------------------------*/
-@media screen and (max-width: 960px){
-body {
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-#main-nav{
-	width: 100%;
-	background:none;
-}
-}
-
-
-
-@media screen and (max-width: 480px){
-body {
-}
-}
-/*draft---------------------------------------*/
-
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
