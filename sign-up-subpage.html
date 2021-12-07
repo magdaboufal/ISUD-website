@@ -2,18 +2,18 @@
 <html lang="en" class="nojs">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport" />
-    <meta charset = "UTF-8">
-    <title>Sing Up Page</title>
-	<link rel="icon" href="images/earth.png">
-	<link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" type="text/css" href="style/normalize.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
-	<script async type ="text/javascript" src="js/script.js"></script>
-  </head>
-  <body>
+  <meta charset = "UTF-8">
+  <title>Sing Up Page</title>
+  <link rel="icon" href="images/earth.png">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" type="text/css" href="style/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <script async type ="text/javascript" src="js/script.js"></script>
+</head>
+<body>
   <div class="topnav" id="myTopnav">
     <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
     <a href="news.html">News</a>
@@ -30,51 +30,54 @@
     </div>
     <h1>International Society of Universal Dialog</h1>
 	<nav id="main-nav"><!--NAVIGATION-->
-    <div class="dropdown">
-      <div class="dropbtn"><a href="index.html">Home</a></div>
-	</div>
-    <div class="dropdown">
-      <div class="dropbtn">About Us</div>
-      <div class="dropdown-content">
-        <a href="history.html">History</a>
-        <a href="journal.html">Journal</a>
-        <a href="constitution.html">Constitution</a>
+      <div class="dropdown">
+        <div class="dropbtn"><a href="index.html">Home</a></div>
+	  </div>
+      <div class="dropdown">
+        <div class="dropbtn">About Us</div>
+        <div class="dropdown-content">
+          <a href="history.html">History</a>
+          <a href="journal.html">Journal</a>
+          <a href="constitution.html">Constitution</a>
+        </div>
       </div>
-    </div>
-	<div class="dropdown">
-      <div class="dropbtn">Contact Us</div>
-      <div class="dropdown-content">
-        <a href="contact-subpage.html">Send a Message</a>
-        <a href="sign-up-subpage.html">Get Newsletter</a>
+	  <div class="dropdown">
+        <div class="dropbtn">Contact Us</div>
+        <div class="dropdown-content">
+          <a href="contact-subpage.html">Send a Message</a>
+          <a href="sign-up-subpage.html">Get Newsletter</a>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 	<h2>Get Newsletter</h2> <!--PAGE HEADER-->
   </header>
-	  
-	<!-- page code goes here -->
-	<main class="wrapper"> <!--main wrapper content -->
-	  <form method="get" action="#null"> <!-- form content-->
+	<!-- page-content code goes here -->
+	<main class="wrapper"> <!--main wrapper -->
+	  <h5>Please provide information below to stay updated with the International Dialog</h5>
+	  <form class="form-form" method="get" action="#null"> <!-- form content-->
+	    <div class="form-fields">
+          <div class="form-label"><label for="fname">First Name:</label></div>
+          <div class="form-input"><input type="text" placeholder="e.g. Joe" name="fname" id="fname" required></div>
+	    </div>
         <div class="form-fields">
-          <label for="fname">First Name:</label>
-          <input type="text" name="fname" id="fname" required>
+          <div class="form-label"><label for="lname">Last Name:</label></div>
+          <div class="form-input"><input type="text" placeholder="e.g. Smith" name="lname" id="lname" required></div>
         </div>
         <div class="form-fields">
-          <label for="lname">Last Name:</label>
-          <input type="text" name="lname" id="lname" required>
+          <div class="form-label"><label for="email">E-mail:</label></div>
+          <div class="form-input"><input type="email" placeholder="e.g. joe_smith@example.com" name="email" id="email" required></div>
         </div>
         <div class="form-fields">
-          <label for="email">E-mail:</label>
-          <input type="email" name="email" id="email" required>
-        </div>
-        <div class="form-fields">
-          <label for="date">Date of Birth:</label>
-          <input type="date" name="date" id="date" required>
+          <div class="form-label"><label for="date">Date of Birth:</label></div>
+          <div class="form-input"> <input type="date" name="date" id="date" required></div>
         </div>   
-        <div class="form-button-field">
-          <button onclick="firstFunction()">Sign me up!</button>
+        <div class="form-button">
+          <button onclick="firstFunction()">Join the dialog!</button>
         </div>
-        </form>
+      </form>
+	  <div>
+	  <img class="main-img" src="images/community.png" alt="community">
+	  </div>
 	</main>
   <footer><!--FOOTER CODE: copyrights -->
     <ul>

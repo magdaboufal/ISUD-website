@@ -32,16 +32,17 @@ footer ul li{
 	margin: auto;
 	padding: 30px;
 }
-.wrapper img{
-	width: 50%;
-}
+
 .nav-logo{
 	display: block;
-	width:360px;
+	width: 360px;
 	margin: auto;
 }
 #logo{
 	width:100%;
+}
+.main-img{
+	width: 400px;
 }
 
 /*Top Navigation ------------------------------*/
@@ -129,8 +130,32 @@ footer ul li{
 }
 /* Dropdown Button----------------------------- end */
 
+/*FORM style*-----------------------------*/
+.form-form{
+	float: left;
+	width: 50%;
+}
+.form-form h5{	
+}
+.form-fields{
+margin-top: 25px;
+}
+.form-label{
+float: left;
+width: 20%;
+
+}
+
+.form-input input{
+	width: 70%;
+}
+.form-button button{
+	margin: 30px;
+	width: 70%;
+}
 
 
+/*end of FORM style ---------------------------*/	
 .about{
 	
 }
@@ -146,11 +171,12 @@ footer ul li{
 .history{
 	
 }
-
-
-
 /*------------------------------*/
 @media screen and (max-width: 960px){
+.wrapper{
+  width: 100%;
+}
+
 #main-nav{
   width: 100%;
 }
@@ -160,6 +186,20 @@ footer ul li{
 footer{
 	width: 100%;
 }
+/*FORM @960 style*-----------------------------*/
+.form-form{
+
+}
+.form-field{
+
+}
+.form-label{
+}
+.form-input{
+}
+.form-button{
+	
+/*end of FORM @960 style */	
 }
 
 @media screen and (max-width: 600px) {
@@ -185,5 +225,19 @@ footer{
  }
  .wrapper{
 	width: 100%;
+}
+/*FORM style @600-----------------------------*/
+.form-form{
+	
+}
+.form-field{
+
+}
+.form-label{
+
+}
+.form-button{
+	
+/*end of FORM @ 600 style */	
 }
 }
