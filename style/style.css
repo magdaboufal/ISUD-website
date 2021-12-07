@@ -30,6 +30,7 @@ footer ul li{
 .wrapper{
 	width: 960px;
 	margin: auto;
+	padding: 30px;
 }
 .wrapper img{
 	width: 50%;
@@ -92,7 +93,7 @@ footer ul li{
 }
 .dropdown a {
  text-decoration:none;
- color: white;
+ color: white; 
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
