@@ -82,7 +82,7 @@ footer ul li{
   background-color: #49a942;
   color: white;
   padding: 16px;
-  font-size: 1em;
+  font-size: 1.5em;
   border: none;
 }
 /* The container <div> - needed to position the dropdown content */
@@ -135,7 +135,12 @@ footer ul li{
 	float: left;
 	width: 50%;
 }
-.form-form h5{	
+.wrapper h5{	
+width: 50%;
+font-size: 1em;
+margin:0;
+padding:0;
+text-align: left;
 }
 .form-fields{
 margin-top: 25px;
@@ -143,17 +148,30 @@ margin-top: 25px;
 .form-label{
 float: left;
 width: 20%;
-
+font-size: 18px;
 }
-
 .form-input input{
 	width: 70%;
+	height: 1.5em;
+}
+.form-button{
+	width:50%;
+	margin: 0 25% 0 25%;
 }
 .form-button button{
-	margin: 30px;
-	width: 70%;
+  background-color: #49a942;
+  margin-top: 25px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
 }
-
+.form-button button:hover{
+	background-color: #3e8e41;
+}
 
 /*end of FORM style ---------------------------*/	
 .about{
@@ -173,10 +191,10 @@ width: 20%;
 }
 /*------------------------------*/
 @media screen and (max-width: 960px){
-.wrapper{
-  width: 100%;
-}
 
+.wrapper{
+width: 600px;
+}
 #main-nav{
   width: 100%;
 }
@@ -186,58 +204,75 @@ width: 20%;
 footer{
 	width: 100%;
 }
-/*FORM @960 style*-----------------------------*/
-.form-form{
-
+.main-img{
+	width: 100%;
 }
-.form-field{
 
+/*FORM @960 style*-----------------------------*/
+
+.wrapper h5{	
+	width: 100%;
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+}
+.form-form{
+	width: 100%;
+}
+.form-fields{
+  width: 100%;
 }
 .form-label{
+width: 100%;
+font-size: 1.5em;
 }
-.form-input{
+.form-input input{
+	width: 100%;
+	height: 3.5em;
 }
 .form-button{
-	
+	width:50%;
+	margin: 0 25% 0 25%;
+}
+.form-button button{
+  margin-bottom: 25px;
+}
+
 /*end of FORM @960 style */	
 }
 
 @media screen and (max-width: 600px) {
-	
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+.wrapper{
+width: 300px;
+}
+.topnav a:not(:first-child) {
+	display: none;
+}
+
+.topnav a.icon {
     float: right;
     display: block;
-  }
-    .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+}
+.topnav.responsive {
+	position: relative;
+}
+.topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
-  }
-  .topnav.responsive a {
+}
+.topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
-  }
- .nav-logo{
+}
+.nav-logo{
 	 width: 100%;
- }
- .wrapper{
-	width: 100%;
 }
+
 /*FORM style @600-----------------------------*/
-.form-form{
-	
-}
-.form-field{
-
-}
 .form-label{
-
+	text-align: center;
 }
-.form-button{
-	
 /*end of FORM @ 600 style */	
-}
 }
