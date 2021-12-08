@@ -15,12 +15,13 @@ h2{
 footer{
 	width: 960px;
 	margin: auto;
+	text-align: center;
 }
 footer ul li{
+  display: inline-block;
   list-style-type: none;
-  float: left;
   margin: 20px;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 #main-nav{
 	width: 960px;
@@ -42,7 +43,7 @@ footer ul li{
 	width:100%;
 }
 .main-img{
-	width: 400px;
+	width: 50%;
 }
 
 /*Top Navigation ------------------------------*/
