@@ -44,8 +44,8 @@
 	  <div class="dropdown">
         <div class="dropbtn">Contact Us</div>
         <div class="dropdown-content">
-          <a href="contact-subpage.html">Send a Message</a>
-          <a href="sign-up-subpage.html">Get Newsletter</a>
+          <a href="contact-subpage.html">Send us a message</a>
+          <a href="sign-up-subpage.html">Get our newsletter</a>
         </div>
       </div>
     </nav>
@@ -70,20 +70,19 @@
              <div class="contact-label"><label for="email">Subject:</label></div>
             <div><input class="contact-input" type="text" placeholder="e.g. Upcoming Fundraiser Details" name="subject" id="subject" required></div>
           </div>
-          <div class="contact-fields" id="contact-fields">
+          <div class="contact-fields">
              <div class="contact-label"><label for="date">Today's date:</label></div>
             <div><input class="contact-input" type="date" name="date" id="date" required></div>
           </div> 
     </form>
 
-    <div class="contact-form">
-	<div class="contact-label"><label for="email">Message:</label></div>
-      <div class="contact-message">
-        
-        <textarea>Write your message here...</textarea>
-       </div>
+    <form class="contact-form" method="get" action="#null">
+	  <div class="contact-fields">
+	    <div class="contact-label"><label for="email">Message:</label></div>
+        <div class="contact-message"><textarea>Write your message here...</textarea></div>
+	  </div>
 	  <button class="contact-button" onclick="secondFunction()">Click here to send your message!</button>
-	</div>
+	 </form>
 	<img class="contact-img" src="images/message.jpg" alt="community">
   </main>
   <footer><!--FOOTER CODE: copyrights -->
