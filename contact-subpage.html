@@ -30,60 +30,61 @@
     </div>
     <h1>International Society of Universal Dialog</h1>
 	<nav id="main-nav"><!--NAVIGATION-->
-    <div class="dropdown">
-      <div class="dropbtn"> <a href="index.html">Home</a></div>
-	</div>
-    <div class="dropdown">
-      <div class="dropbtn">About Us</div>
-      <div class="dropdown-content">
-        <a href="history.html">History</a>
-        <a href="journal.html">Journal</a>
-        <a href="constitution.html">Constitution</a>
+      <div class="dropdown">
+        <div class="dropbtn"> <a href="index.html">Home</a></div>
+	  </div>
+      <div class="dropdown">
+        <div class="dropbtn">About Us</div>
+        <div class="dropdown-content">
+          <a href="history.html">History</a>
+          <a href="journal.html">Journal</a>
+          <a href="constitution.html">Constitution</a>
+        </div>
       </div>
-    </div>
-	<div class="dropdown">
-      <div class="dropbtn">Contact Us</div>
-      <div class="dropdown-content">
-        <a href="contact-subpage.html">Send a Message</a>
-        <a href="sign-up-subpage.html">Get Newsletter</a>
+	  <div class="dropdown">
+        <div class="dropbtn">Contact Us</div>
+        <div class="dropdown-content">
+          <a href="contact-subpage.html">Send a Message</a>
+          <a href="sign-up-subpage.html">Get Newsletter</a>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 	<h2>Contact Form</h2> <!--PAGE HEADER-->
   </header>
-	  
-	<!-- page code goes here -->
-	<main class="wrapper">
-	<form method="get" action="#null">
-          <div class="form-fields">
-            <label for="fname">First Name:</label>
-            <input type="text" name="fname" id="fname" required>
+  <main class="wrapper"><!-- page code goes here -->
+    <h5>Please fill out the form below to contact us</h5>
+	<form class="contact-form" method="get" action="#null">
+        <div class="contact-fields">
+          <div class="contact-label"><label for="fname">First Name:</label></div>
+		  <div><input class="contact-input" type="text" name="fname" id="fname" required></div>
+        </div>
+        <div class="contact-fields">
+            <div class="contact-label"><label for="lname">Last Name:</label></div>
+            <div><input class="contact-input" type="text" name="lname" id="lname" required></div>
           </div>
-          <div class="form-fields">
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lname" id="lname" required>
+          <div class="contact-fields">
+             <div class="contact-label"><label for="email">E-mail:</label></div>
+            <div><input class="contact-input" type="email" name="email" id="email" required></div>
           </div>
-          <div class="form-fields">
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email" required>
+		   <div class="contact-fields">
+             <div class="contact-label"><label for="email">Subject:</label></div>
+            <div><input class="contact-input" type="text" name="subject" id="subject" required></div>
           </div>
-		   <div class="form-fields">
-            <label for="email">Subject:</label>
-            <input type="text" name="subject" id="subject" required>
-          </div>
-		  <div class="form-fields">
-            <label for="email">Message:</label>
-            <input type="text" name="message" id="message" required>
-          </div>
-          <div class="form-fields">
-            <label for="date">Today's date:</label>
-            <input type="date" name="date" id="date" required>
-          </div>   
-          <div class="form-button">
-            <button onclick="firstFunction()">Send!</button>
-          </div>
-        </form>
-	</main>
+          <div class="contact-fields" id="contact-fields">
+             <div class="contact-label"><label for="date">Today's date:</label></div>
+            <div><input class="contact-input" type="date" name="date" id="date" required></div>
+          </div> 
+    </form>
+
+    <div class="contact-form">
+      <div class="contact-message">
+        <div class="contact-label"><label for="email">Message:</label></div>
+        <textarea>Write your message here...</textarea>
+       </div>
+	  <button class="contact-button" onclick="secondFunction()">Click here to send your message!</button>
+	</div>
+	<img class="main-img" src="images/community.png" alt="community">
+  </main>
   <footer><!--FOOTER CODE: copyrights -->
     <div>
 	  <ul>

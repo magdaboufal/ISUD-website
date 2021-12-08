@@ -132,6 +132,7 @@ footer ul li{
 /* Dropdown Button----------------------------- end */
 
 /*FORM style*-----------------------------*/
+/*@newsletter*/
 .form-form{
 	float: left;
 	width: 50%;
@@ -173,8 +174,55 @@ font-size: 18px;
 .form-button button:hover{
 	background-color: #3e8e41;
 }
-
+/*FORM @contact-subpage*/
+.contact-form{
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+.contact-fields{
+	margin: 5px;
+	width: 400px;
+}
+.contact-message{
+	width: 400px;
+	margin: 0px 40px 25px 20px;
+}
+.contact-input{
+	width: 400px;
+	height: 2em;
+}
+.contact-label{
+	width: 400px;
+	padding: 5px;
+}
+.contact-button{
+  background-color: #49a942;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1.5em;
+}
+.contact-button:hover{
+	background-color: #3e8e41;
+}
+textarea {
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
 /*end of FORM style ---------------------------*/	
+
+
 .about{
 	
 }
@@ -203,7 +251,7 @@ width: 600px;
   width: 100%;
 }
 footer{
-	width: 100%;
+	width: 600px;
 }
 .main-img{
 	width: 100%;
@@ -212,8 +260,8 @@ footer{
 /*FORM @960 style*-----------------------------*/
 
 .wrapper h5{	
-	width: 100%;
-	margin: auto;
+	width: 80%;
+	margin: 10%;
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -238,14 +286,31 @@ font-size: 1.5em;
 .form-button button{
   margin-bottom: 25px;
 }
+/*FORM @contact-subpage @960*/
+.contact-form{
+	width: 100%;
+}
+.contact-fields{
+  width: 100%;
+}
+.contact-label{
+width: 100%;
+font-size: 1.5em;
+}
+.contact-input input{
+width: 100%;
+	height: 3.5em;
+}
+.contact-button{
+	width:80%;
+	margin: 0 10% 0 10%;
+}
 
 /*end of FORM @960 style */	
 }
 
 @media screen and (max-width: 600px) {
-.wrapper{
-width: 300px;
-}
+
 .topnav a:not(:first-child) {
 	display: none;
 }
@@ -272,8 +337,29 @@ width: 300px;
 }
 
 /*FORM style @600-----------------------------*/
-.form-label{
-	text-align: center;
+.wrapper{
+	width: 100%;
+}
+footer{
+	width: 100%;
+}
+.contact-form{
+	width: 300px;
+}
+.contact-fields{
+  width: 150px;
+}
+.contact-label{
+width: 150px;
+font-size: 1.5em;
+}
+.contact-input input{
+	width: 150px;
+	height: 3.5em;
+}
+.contact-button{
+	width:80%;
+	margin: 0 10% 0 10%;
 }
 /*end of FORM @ 600 style */	
 }
